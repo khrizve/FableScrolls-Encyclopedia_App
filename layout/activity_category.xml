@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_back"
+    android:padding="16dp">
+
+    <!-- Search Bar -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/searchBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="@drawable/searchview_background"
+            android:queryHint="Search here..."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/imageButton2"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/search_button_desc"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/searchView"
+            app:srcCompat="@drawable/search" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Button Grid (2 columns x 6 rows) -->
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="2"
+        android:rowCount="6"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@id/searchBarLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/button1"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="ইতিহাস"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="বিজ্ঞান"
+            android:textColor="@color/white"/>
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/button3"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="প্রযুক্তি"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="কৃষি"
+            android:textColor="@color/white"/>
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/button5"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="প্রাণীজগৎ"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="ভূগোল"
+            android:textColor="@color/white"/>
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/button7"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="পরিবেশ ও প্রকৃতি"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="ভ্রমণ ও পর্যটন"
+            android:textColor="@color/white"/>
+
+        <!-- Row 5 -->
+        <Button
+            android:id="@+id/button9"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="সংস্কৃতি"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="বিনোদন"
+            android:textColor="@color/white"/>
+
+        <!-- Row 6 -->
+        <Button
+            android:id="@+id/button11"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="মনোবিজ্ঞান"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/AppButton"
+            android:layout_height="70dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="8dp"
+            android:text="রহস্য ও অলৌকিক"
+            android:textColor="@color/white"/>
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="109dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/navigate_button_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/right" />
+</androidx.constraintlayout.widget.ConstraintLayout>

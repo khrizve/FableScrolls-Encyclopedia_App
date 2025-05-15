@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_back"
+    android:padding="16dp">
+
+    <!-- CardView wrapping the ImageView (95% width) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline1"
+        app:layout_constraintDimensionRatio="342:179"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.95">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_logo_desc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/history_image" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Moved up guideline (40%) -->
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <!-- ScrollView for buttons -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline1"
+        app:layout_constraintWidth_percent="0.85">
+
+        <!-- Narrower button container (85% width) -->
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:paddingHorizontal="8dp">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/AppButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:text="প্রাচীন ইতিহাস"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/AppButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:text="মধ্যযুগের ইতিহাস"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/AppButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:text="বাংলার ইতিহাস"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/AppButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:text="বিশ্ব ইতিহাস"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/AppButton"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="8dp"
+                android:text="বাংলার ইতিহাস"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
