@@ -37,7 +37,6 @@
 
 * 🧱 **Android Studio (Java)**
 * 🎨 **Custom XML Layouts**
-* 📦 **Local JSON & SQLite Database**
 * 🧙‍♂️ Fantasy Fonts, Icons, and Animations
 
 ---
@@ -47,7 +46,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/khrizve/FableScrolls.git
+   git clone https://github.com/khrizve/FableScrolls-Encyclopedia_App.git
    ```
 2. Open in **Android Studio**
 3. Build and run on an emulator or Android device
