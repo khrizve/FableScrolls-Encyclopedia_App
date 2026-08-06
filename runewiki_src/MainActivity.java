@@ -1,4 +1,4 @@
-package com.example.fablescrolls;
+package com.example.runewiki;
 
 import android.content.Context;
 import android.content.Intent;
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (id == R.id.nav_home) {
                 // Handle home click
-                Toast.makeText(this, "Welcome to FableScrolls", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Welcome to runewiki", Toast.LENGTH_SHORT).show();
             } else if (id == R.id.nav_explore) {
                 Intent intent = new Intent(MainActivity.this, CategoryActivity.class);
                 startActivity(intent);
