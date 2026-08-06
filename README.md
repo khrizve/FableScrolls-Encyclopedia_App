@@ -4,7 +4,7 @@
 
 ---
 
-![RuneWiki](asset/runewiki.jpg)
+![RuneWiki](assets/runewiki.jpg)
 
 ---
 
