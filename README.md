@@ -1,10 +1,10 @@
-# 🌙📜 FableScrolls - A Fantasy-Themed Encyclopedia App
+# 🌙📜 RuneWiki - A Fantasy-Themed Encyclopedia App
 
-**FableScrolls** is a beautifully crafted fantasy-themed encyclopedia Android application designed to guide users through a vast collection of categorized knowledge—ranging from ancient myths to world history. Whether you're a curious mind or a seeker of forgotten lore, FableScrolls opens the gateway to explore and learn in a magical environment.
+**RuneWiki** is a beautifully crafted fantasy-themed encyclopedia Android application designed to guide users through a vast collection of categorized knowledge—ranging from ancient myths to world history. Whether you're a curious mind or a seeker of forgotten lore, RuneWiki opens the gateway to explore and learn in a magical environment.
 
 ---
 
-![FableScrolls](asset/fablescrolls.jpg)
+![RuneWiki](asset/RuneWiki.jpg)
 
 ---
 
@@ -46,7 +46,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/khrizve/FableScrolls-Encyclopedia_App.git
+   git clone https://github.com/khrizve/RuneWiki.git
    ```
 2. Open in **Android Studio**
 3. Build and run on an emulator or Android device
@@ -69,11 +69,11 @@ Contributions are welcome! If you have ideas for categories, articles, or UI imp
 
 ---
 
-## 📜 Lore Behind FableScrolls
+## 📜 Lore Behind RuneWiki
 
-> "In a realm where knowledge is magic and scrolls hold the stories of civilization, *FableScrolls* serves as the last archive of wisdom—hidden in plain sight, waiting for the worthy."
+> "In a realm where knowledge is magic and scrolls hold the stories of civilization, *RuneWiki* serves as the last archive of wisdom—hidden in plain sight, waiting for the worthy."
 
 —
 
-**Crafted with enchantment by Rizve** ✨
+**Crafted with enchantment by Sorcerer** ✨
 🔮 *Let the scrolls guide your journey.*
