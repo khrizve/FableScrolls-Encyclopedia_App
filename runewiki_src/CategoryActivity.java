@@ -1,4 +1,4 @@
-package com.example.fablescrolls;
+package com.example.runewiki;
 
 import android.content.Intent;
 import android.os.Bundle;
