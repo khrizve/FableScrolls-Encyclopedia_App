@@ -1,4 +1,4 @@
-# 🌙📜 RuneWiki - A Fantasy-Themed Encyclopedia App
+# 📜 RuneWiki - A Fantasy-Themed Encyclopedia App
 
 **RuneWiki** is a beautifully crafted fantasy-themed encyclopedia Android application designed to guide users through a vast collection of categorized knowledge—ranging from ancient myths to world history. Whether you're a curious mind or a seeker of forgotten lore, RuneWiki opens the gateway to explore and learn in a magical environment.
 
