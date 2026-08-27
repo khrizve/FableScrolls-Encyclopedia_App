@@ -19,7 +19,7 @@
     * বিশ্ব ইতিহাস (World History)
     * কৃষি, প্রাণী, বিজ্ঞান, ভুগোল ইত্যাদি
 
-* 🍗 **Fantasy-Themed UI**
+* 🔮 **Fantasy-Themed UI**
 
   * Scroll animations, magical colors, and immersive design for a mystical reading experience.
 
@@ -63,7 +63,7 @@
 
 ---
 
-## 👩‍🎄 Contribution
+## 🧛 Contribution
 
 Contributions are welcome! If you have ideas for categories, articles, or UI improvements, feel free to fork the project and open a pull request.
 
